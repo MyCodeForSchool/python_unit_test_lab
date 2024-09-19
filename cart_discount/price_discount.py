@@ -11,10 +11,12 @@ def discount(item_prices):
     """
     if len(item_prices) < 3:
         return 0
-    return min(item_prices)
-
+    else:
+        return min(item_prices)
 
     #pass  # todo replace this line with your code
+
+
 
 
 if __name__ == '__main__':
